@@ -32,10 +32,8 @@ public class MyLinkedListTest {
 		checkLinkedList.printMyNodes();
 		System.out.println();
 		System.out.println("Linked list after sorting is : ");
-//		boolean isInserted = myLinkedList.InsertingAnElementAfterAnElementInALinkedList(30, newNode);
 		myLinkedList.printMyNodes();
 		System.out.println();
 		System.out.println();
-//		Assert.assertEquals(true, isInserted);
 	}
 }
