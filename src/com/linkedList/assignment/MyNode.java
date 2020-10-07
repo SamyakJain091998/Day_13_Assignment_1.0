@@ -25,11 +25,4 @@ public class MyNode<K> implements INode<K>{
 	public void setKey(K key) {
 		this.key = key;
 	}
-	
-//	public void printMyNodes(MyNode<K> firstNode) {
-//		while(firstNode.getNext() != null) {
-//			System.out.print(firstNode.getKey() + " -> ");
-//			firstNode = firstNode.getNext();
-//		}
-//	}
 }
